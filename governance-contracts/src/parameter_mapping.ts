@@ -38,5 +38,3 @@ export function handleParameterProposalCreated(event: ParameterProposalCreatedEv
          proposal.metadataHash = event.params.metadataHash;
          proposal.save();
        }
-
-export function handleInitialized() {}
